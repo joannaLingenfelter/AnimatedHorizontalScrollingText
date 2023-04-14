@@ -53,12 +53,9 @@ struct ContentView: View {
                 HStack {
                     ForEach(fruit) { fruit in
                         FruitView(fruit: fruit)
-//                            .anchorPreference(key: ScrollingContentWidthPreferenceKey.self, value: .bounds) { anchor in
-//                                return geometry[anchor].width
-//                            }
-                    }
-                    .anchorPreference(key: ScrollingContentWidthPreferenceKey.self, value: .bounds) { anchor in
-                        return geometry[anchor].width
+                            .anchorPreference(key: ScrollingContentWidthPreferenceKey.self, value: .bounds) { anchor in
+                                return geometry[anchor].width
+                            }
                     }
                 }
                 .offset(x: geometry.size.width + abs(contentWidth - geometry.size.width))
