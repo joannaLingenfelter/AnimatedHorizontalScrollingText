@@ -11,6 +11,7 @@
 		1742906729E9B9930027FB20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742906629E9B9930027FB20 /* ContentView.swift */; };
 		1742906929E9B9940027FB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1742906829E9B9940027FB20 /* Assets.xcassets */; };
 		1742906C29E9B9940027FB20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1742906B29E9B9940027FB20 /* Preview Assets.xcassets */; };
+		1742907529E9BA520027FB20 /* FruitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742907429E9BA520027FB20 /* FruitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1742906629E9B9930027FB20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1742906829E9B9940027FB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1742906B29E9B9940027FB20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1742907429E9BA520027FB20 /* FruitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1742906429E9B9930027FB20 /* TextScrollingTestApp.swift */,
 				1742906629E9B9930027FB20 /* ContentView.swift */,
+				1742907429E9BA520027FB20 /* FruitView.swift */,
 				1742906829E9B9940027FB20 /* Assets.xcassets */,
 				1742906A29E9B9940027FB20 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1742907529E9BA520027FB20 /* FruitView.swift in Sources */,
 				1742906729E9B9930027FB20 /* ContentView.swift in Sources */,
 				1742906529E9B9930027FB20 /* TextScrollingTestApp.swift in Sources */,
 			);
